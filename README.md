@@ -1,2 +1,3 @@
 # UC-IOT-Dashboard
-Data Visualization  UC IOT Project Dashboard
+My attempt at a dashboard for the UC IOT project
+

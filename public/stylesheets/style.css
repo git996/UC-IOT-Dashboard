@@ -5,5 +5,26 @@
   width: 100%;
   color:rgb(70, 70, 70);
   text-align: center;
+ 
 
+}
+#mainDashboard {
+ 
+}
+
+#mainDashboard .card{
+  margin: auto;
+  margin-bottom: 1%;
+  min-height: 20px;
+  padding: 2%;
+  overflow: hidden;
+  
+}
+#mainDashboard .card h4{
+  
+  background: rgb(255, 255, 255)
+  
+}
+#nodeSelector{
+  background: #029ddd;
 }
