@@ -10,6 +10,18 @@ window.onload = function(){
     .transition({
     animation : 'scale',
     duration  : 500,
+    onComplete: function(){
+        jQuery('#mainDashboard').transition({
+            animation : 'fade up',
+            duration  : 1000,
+            onComplete:function(){
+                jQuery('#mainDashboard card').transition({
+                    animation : 'fade up',
+                    duration  : 1000
+                });
+            }
+        });
+    }
     
     });
     

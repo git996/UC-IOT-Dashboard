@@ -9,7 +9,7 @@
 
 }
 #mainDashboard {
- 
+   visibility: hidden;
 }
 
 #mainDashboard .card{
